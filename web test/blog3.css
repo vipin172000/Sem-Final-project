@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.main-banner {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    background-image: url(blog3img.png);
+    height: 470px;
+    text-align: center;
+}
+.main-banner h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.main-banner p {
+    margin: 10px 0 0;
+}
+.content {
+    display: flex;
+    padding: 20px;
+}
+.content .main-content {
+    flex: 3;
+    padding-right: 20px;
+}
+.content .sidebar {
+    flex: 1;
+    padding-left: 20px;
+}
+.content h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.content p {
+    line-height: 1.6;
+}
+.content pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.content table, .content th, .content td {
+    border: 1px solid #ccc;
+}
+.content th, .content td {
+    padding: 10px;
+    text-align: left;
+}
+.sidebar .widget {
+    margin-bottom: 20px;
+}
+.sidebar .widget h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.sidebar .widget ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .widget ul li {
+    margin-bottom: 10px;
+}
+.sidebar .widget ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.sidebar .widget ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+footer .links a {
+    color: #fff;
+    text-decoration: none;
+}
+.comment-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.comment-section h3 {
+    margin-top: 0;
+}
+.comment-section form {
+    display: flex;
+    flex-direction: column;
+}
+.comment-section form input, .comment-section form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.comment-section form button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.comment-section form button:hover {
+    background-color: #555;
+}

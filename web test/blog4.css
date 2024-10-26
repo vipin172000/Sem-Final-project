@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.hero {
+    background-image: url('blog4img.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    height: 300px;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.hero p {
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+.main-content {
+    flex: 3;
+    padding-right: 20px;
+}
+.sidebar {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+.sidebar h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.post {
+    margin-bottom: 20px;
+}
+.post h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.post p {
+    line-height: 1.6;
+}
+.post pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+.comments {
+    margin-top: 40px;
+}
+.comments h3 {
+    font-size: 20px;
+}
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.comment p {
+    margin: 0;
+}
+.comment .reply {
+    color: #007bff;
+    text-decoration: none;
+}
+.comment-form {
+    margin-top: 20px;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.comment-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+footer .links a {
+    color: #fff;
+    text-decoration: none;
+}

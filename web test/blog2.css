@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.main-banner {
+    background-image: url('blog2img.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    height: 300px;
+    color: #fff;
+}
+.main-banner h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+.main-banner p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    padding: 20px;
+}
+.content .main-content {
+    flex: 3;
+    padding-right: 20px;
+}
+.content .sidebar {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+.content h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.content p {
+    line-height: 1.6;
+}
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+.content ul li {
+    margin-bottom: 10px;
+}
+.content ul li::before {
+    content: "•";
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.sidebar h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar .search {
+    margin-bottom: 20px;
+}
+.sidebar .search input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.sidebar .search button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+footer .links a {
+    color: #fff;
+    text-decoration: none;
+}
+.tags {
+    margin: 20px 0;
+}
+.tags a {
+    display: inline-block;
+    background-color: #ddd;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.tags a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.comments {
+    margin: 20px 0;
+}
+.comments form {
+    display: flex;
+    flex-direction: column;
+}
+.comments form input, .comments form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.comments form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
